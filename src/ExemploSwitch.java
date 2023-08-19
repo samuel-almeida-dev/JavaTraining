@@ -3,10 +3,14 @@ public class ExemploSwitch {
 
 	public static void main(String [] args) {
 
-		int number1;
-		number1 = 22;
+		Scanner input = new Scanner(System.in);
 		
-		switch(number1) {
+		int n;
+		
+			System.out.println("Digite um número de 1 a 4:");
+			n = input.nextInt();
+		
+		switch(n) {
 		
 		case 1:
 			System.out.println("Você digitou 1");

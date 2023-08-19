@@ -3,11 +3,6 @@ public class ExemplosAlgorimos {
 
 	public static void main(String [] args) {
 		
-		
-	int numeroDeAlunos = 3;
-	
-		 
-			
 		Scanner input = new Scanner(System.in);
 		
 		double valor1, valor2, media;
